@@ -15,8 +15,8 @@
 
 *Autonomous drone swarms for large-scale wildlife and environmental monitoring*
 
-[![Simulation](https://img.shields.io/badge/Unity-2022.3_LTS-black?logo=unity)](https://github.com/your-org/dgis-simulation)
-[![ML Models](https://img.shields.io/badge/YOLO-v8-purple?logo=python)](https://github.com/your-org/dgis-ml-models)
+[![Simulation](https://img.shields.io/badge/Unity-6.2_LTS-black?logo=unity)](https://github.com/your-org/dgis-simulation)
+[![ML Models](https://img.shields.io/badge/YOLO-v26-purple?logo=python)](https://github.com/AhmedMohamady1/dgis-ml-models)
 [![Mobile](https://img.shields.io/badge/Android-Kotlin-green?logo=android)](https://github.com/your-org/dgis-mobile)
 [![Hardware](https://img.shields.io/badge/ESP32-PlatformIO-red?logo=espressif)](https://github.com/your-org/dgis-hardware)
 [![Analytics](https://img.shields.io/badge/Dashboard-React-blue?logo=react)](https://github.com/your-org/dgis-analytics)
@@ -44,14 +44,14 @@ The system is paired with a quadruped robot (spider-inspired, 12-servo, IK-contr
 │                        DGIS Ecosystem                           │
 │                                                                 │
 │  ┌──────────────────┐        ┌──────────────────────────────┐  │
-│  │  dgis-simulation │        │       dgis-ml-models         │  │
-│  │                  │        │                              │  │
-│  │  Unity 3D        │◄───────│  YOLO Training (sim)         │  │
-│  │  RL Navigation   │        │  YOLO Training (mobile)      │  │
-│  │  LiDAR / HUD     │        │  .onnx exports               │  │
-│  │  7 Biome Scenes  │        │  Jupyter Notebooks           │  │
+│  │  dgis-simulation │        │       dgis-ml-models         │   │
+│  │                  │        │                              │   │
+│  │  Unity 3D        │◄───────│  YOLO Training (sim)         │   │  
+│  │  RL Navigation   │        │  YOLO Training (mobile)      │   │
+│  │  LiDAR / HUD     │        │  .onnx exports               │   │
+│  │  7 Biome Scenes  │        │  Jupyter Notebooks           │   │
 │  └────────┬─────────┘        └──────────────────────────────┘  │
-│           │ mission data                                        │
+│           │ mission data                                       │
 │           ▼                                                     │
 │  ┌──────────────────┐        ┌──────────────────────────────┐  │
 │  │  dgis-analytics  │        │       dgis-mobile            │  │
@@ -63,13 +63,13 @@ The system is paired with a quadruped robot (spider-inspired, 12-servo, IK-contr
 │  └──────────────────┘        └──────────┬───────────────────┘  │
 │                                         │ USB / BLE            │
 │                              ┌──────────▼───────────────────┐  │
-│                              │      dgis-hardware            │  │
+│                              │      dgis-hardware           │  │
 │                              │                              │  │
 │                              │  ESP32 Firmware              │  │
 │                              │  Inverse Kinematics (IK)     │  │
 │                              │  12-Servo Quadruped Control  │  │
 │                              └──────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -79,7 +79,7 @@ The system is paired with a quadruped robot (spider-inspired, 12-servo, IK-contr
 | Repo | Description | Stack |
 |------|-------------|-------|
 | [dgis-simulation](https://github.com/your-org/dgis-simulation) | Unity 3D simulation — 7 biome environments, drone flight, RL navigation, LiDAR, HUD, data generation pipeline | Unity 2022.3 LTS, C#, ML-Agents, URP |
-| [dgis-ml-models](https://github.com/your-org/dgis-ml-models) | YOLO model training for sim and mobile, dataset configs, `.onnx` exports, training notebooks | Python, YOLOv8, PyTorch, Jupyter |
+| [dgis-ml-models](https://github.com/AhmedMohamady1/dgis-ml-models) | YOLO model training for sim and mobile, dataset configs, `.onnx` exports, training notebooks | Python, YOLOv8, PyTorch, Jupyter |
 | [dgis-mobile](https://github.com/your-org/dgis-mobile) | Android app — on-device YOLO inference, IMU/GPS sensing, ESP32 communication, robot control | Kotlin, Android SDK |
 | [dgis-hardware](https://github.com/your-org/dgis-hardware) | ESP32 firmware — quadruped inverse kinematics, servo control, telnet bridge | C/C++, PlatformIO |
 | [dgis-analytics](https://github.com/your-org/dgis-analytics) | Post-mission analytics dashboard — species density, distribution maps, automated report generation | React, SQLite |
@@ -91,8 +91,8 @@ The system is paired with a quadruped robot (spider-inspired, 12-servo, IK-contr
 ### Clone everything
 
 ```bash
-git clone https://github.com/your-org/dgis
-cd dgis
+git clone https://github.com/AhmedMohamady1/DGIS
+cd DGIS
 bash scripts/clone-all.sh
 ```
 
@@ -103,7 +103,7 @@ Or clone individual components:
 git clone https://github.com/your-org/dgis-simulation
 
 # ML models only
-git clone https://github.com/your-org/dgis-ml-models
+git clone https://github.com/AhmedMohamady1/dgis-ml-models
 
 # Mobile app only
 git clone https://github.com/your-org/dgis-mobile
@@ -119,7 +119,7 @@ git clone https://github.com/your-org/dgis-analytics
 
 | Component | Requirements |
 |-----------|-------------|
-| Simulation | Unity 2022.3 LTS, Git LFS |
+| Simulation | Unity 6.2 LTS |
 | ML Models | Python 3.10+, `pip install ultralytics torch` |
 | Mobile | Android Studio, Android SDK 26+ |
 | Hardware | PlatformIO, ESP32 board support |
