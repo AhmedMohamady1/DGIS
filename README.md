@@ -3,12 +3,12 @@
 <br/>
 
 ```
-██████╗  ██████╗ ██╗███████╗
-██╔══██╗██╔════╝ ██║██╔════╝
-██║  ██║██║  ███╗██║███████╗
-██║  ██║██║   ██║██║╚════██║
-██████╔╝╚██████╔╝██║███████║
-╚═════╝  ╚═════╝ ╚═╝╚══════╝
+        ██████╗  ██████╗ ██╗███████╗
+        ██╔══██╗██╔════╝ ██║██╔════╝
+        ██║  ██║██║  ███╗██║███████╗
+        ██║  ██║██║   ██║██║╚════██║
+        ██████╔╝╚██████╔╝██║███████║
+        ╚═════╝  ╚═════╝ ╚═╝╚══════╝
 ```
 
 **Drone Geographical Information System**
@@ -78,7 +78,7 @@ The system is paired with a quadruped robot (spider-inspired, 12-servo, IK-contr
 
 | Repo | Description | Stack |
 |------|-------------|-------|
-| [dgis-simulation](https://github.com/your-org/dgis-simulation) | Unity 3D simulation — 7 biome environments, drone flight, RL navigation, LiDAR, HUD, data generation pipeline | Unity 2022.3 LTS, C#, ML-Agents, URP |
+| [dgis-simulation](https://github.com/your-org/dgis-simulation) | Unity 3D simulation — 5 biome environments, drone flight, RL navigation, LiDAR, HUD, data generation pipeline | Unity 6.2 LTS, C#, ML-Agents, URP |
 | [dgis-ml-models](https://github.com/AhmedMohamady1/dgis-ml-models) | YOLO model training for sim and mobile, dataset configs, `.onnx` exports, training notebooks | Python, YOLOv8, PyTorch, Jupyter |
 | [dgis-mobile](https://github.com/your-org/dgis-mobile) | Android app — on-device YOLO inference, IMU/GPS sensing, ESP32 communication, robot control | Kotlin, Android SDK |
 | [dgis-hardware](https://github.com/your-org/dgis-hardware) | ESP32 firmware — quadruped inverse kinematics, servo control, telnet bridge | C/C++, PlatformIO |
@@ -160,7 +160,7 @@ dgis/
 ## Team
 
 **Faculty of Computing and Data Sciences — Alexandria University**
-Graduation Project · Fall 2025 · Team 20
+Graduation Project · Spring 2026
 
 | Name |
 |------|
