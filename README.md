@@ -40,19 +40,19 @@ The system is paired with a quadruped robot (spider-inspired, 12-servo, IK-contr
 ## System Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                        DGIS Ecosystem                           │
-│                                                                 │
+┌────────────────────────────────────────────────────────────────┐
+│                        DGIS Ecosystem                          │
+│                                                                │
 │  ┌──────────────────┐        ┌──────────────────────────────┐  │
 │  │  dgis-simulation │        │       dgis-ml-models         │   │
 │  │                  │        │                              │   │
 │  │  Unity 3D        │◄───────│  YOLO Training (sim)         │   │  
 │  │  RL Navigation   │        │  YOLO Training (mobile)      │   │
 │  │  LiDAR / HUD     │        │  .onnx exports               │   │
-│  │  7 Biome Scenes  │        │  Jupyter Notebooks           │   │
+│  │  5 Biome Scenes  │        │  Jupyter Notebooks           │   │
 │  └────────┬─────────┘        └──────────────────────────────┘  │
 │           │ mission data                                       │
-│           ▼                                                     │
+│           ▼                                                    │
 │  ┌──────────────────┐        ┌──────────────────────────────┐  │
 │  │  dgis-analytics  │        │       dgis-mobile            │  │
 │  │                  │        │                              │  │
