@@ -1,7 +1,7 @@
 # DGIS — Drone Geographical Information System
 
 <p align="center">
-  <img src="dgis-simulation/Docs/Screenshots/1.%20Splash%20Screen%20(DGIS%20Logo).png" alt="DGIS Logo" width="80%"/>
+  <img src="assets/dgis_logo_cropped.png" alt="DGIS Logo" width="70%"/>
 </p>
 
 <p align="center">
@@ -185,9 +185,9 @@ Requires ML model assets in `app/src/main/assets/`. See [dgis-mobile/README.md](
 ### 4. IoT / Quadruped Robot — `dgis-iot/`
 
 <p align="center">
-  <img src="dgis-iot/images/3D%20Model%20Render.jpg" alt="3D CAD Render" width="40%"/>
+  <img src="assets/iot_cad_render.jpg" alt="3D CAD Render" width="40%"/>
   &nbsp;&nbsp;
-  <img src="dgis-iot/images/Real%20Image.jpg" alt="Assembled Robot" width="40%"/>
+  <img src="assets/iot_real_robot.jpg" alt="Assembled Robot" width="40%"/>
 </p>
 
 **Firmware** (PlatformIO):
@@ -237,16 +237,16 @@ Opens at [http://localhost:8080](http://localhost:8080) (frontend) and [http://l
 <details>
 <summary><strong>Simulation — Autonomous Drone Exploration</strong></summary>
 
-![Drone HUD](dgis-simulation/Docs/Screenshots/7.%20Drone%20HUD%20with%20Zebra%20YOLO%20classification%20as%20example.png)
+![Drone HUD](assets/sim_drone_hud.jpg)
 *Drone HUD with real-time YOLOv26s zebra detection*
 
-![Mission View](dgis-simulation/Docs/Screenshots/8.%20Mision%20View%20(Top-down%20view%20on%20the%20exploration%20area%20during%20the%20mission).png)
+![Mission View](assets/sim_mission_view.jpg)
 *Top-down mission view — multi-drone terrain exploration*
 
-![Drone Circling](dgis-simulation/Docs/Screenshots/10.%20Drone%20Circling%20an%20Animal.png)
+![Drone Circling](assets/sim_drone_circling.jpg)
 *Two-pass orbit around a detected animal*
 
-![Mission Results](dgis-simulation/Docs/Screenshots/9.%20Post%20mission%20results%20pop-up.png)
+![Mission Results](assets/sim_mission_results.jpg)
 *Post-mission results summary*
 
 </details>
@@ -254,10 +254,10 @@ Opens at [http://localhost:8080](http://localhost:8080) (frontend) and [http://l
 <details>
 <summary><strong>ML Models — YOLO Detections</strong></summary>
 
-![Simulation Detections](dgis-ml-models/docs/images/1.%20Multiple%20Simulation%20YOLO%20detections.png)
+![Simulation Detections](assets/ml_sim_detections.jpg)
 *Simulation YOLO detections (synthetic data)*
 
-![Real-World Detections](dgis-ml-models/docs/images/2.%20Multiple%20Real-Life%20YOLO%20detections.jpg)
+![Real-World Detections](assets/ml_real_detections.jpg)
 *Real-world YOLO detections (mobile model)*
 
 </details>
@@ -266,9 +266,9 @@ Opens at [http://localhost:8080](http://localhost:8080) (frontend) and [http://l
 <summary><strong>IoT — Quadruped Robot</strong></summary>
 
 <p align="center">
-  <img src="dgis-iot/images/3D%20Model%20Render.jpg" alt="3D CAD Render" width="48%"/>
+  <img src="assets/iot_cad_render.jpg" alt="3D CAD Render" width="48%"/>
   &nbsp;&nbsp;
-  <img src="dgis-iot/images/Real%20Image.jpg" alt="Assembled Robot" width="48%"/>
+  <img src="assets/iot_real_robot.jpg" alt="Assembled Robot" width="48%"/>
 </p>
 
 *Left: FreeCAD 3D render — Right: Assembled quadruped with ESP32, PCA9685, and 12 servos*
@@ -281,6 +281,10 @@ Opens at [http://localhost:8080](http://localhost:8080) (frontend) and [http://l
 
 **Faculty of Computing and Data Sciences — Alexandria University**
 Graduation Project · 2025/2026
+
+<p align="center">
+  <img src="assets/dgis_team.jpg" alt="DGIS Team" width="90%"/>
+</p>
 
 <table>
   <tr>
