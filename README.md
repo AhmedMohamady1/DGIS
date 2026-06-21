@@ -1,7 +1,7 @@
 # DGIS — Drone Geographical Information System
 
 <p align="center">
-  <img src="dgis-simulation/Docs/Screenshots/1.%20Splash%20Screen%20(DGIS%20Logo).png" alt="DGIS Logo" width="80%"/>
+  <img src="[dgis-simulation/Docs/Screenshots/1.%20Splash%20Screen%20(DGIS%20Logo).png](https://github.com/AhmedMohamady1/dgis-simulation/blob/05ecf8f14dad702ee0ef71b620f8bc1ec9edd5ab/Docs/Screenshots/1.%20Splash%20Screen%20(DGIS%20Logo).png)" alt="DGIS Logo" width="80%"/>
 </p>
 
 <p align="center">
