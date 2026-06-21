@@ -1,3 +1,18 @@
 [submodule "ml-models"]
 	path = ml-models
 	url = https://github.com/AhmedMohamady1/dgis-ml-models
+[submodule "dgis-simulation"]
+	path = dgis-simulation
+	url = https://github.com/AhmedMohamady1/dgis-simulation.git
+[submodule "dgis-ml-models"]
+	path = dgis-ml-models
+	url = https://github.com/AhmedMohamady1/dgis-ml-models.git
+[submodule "dgis-analysis-dashboard"]
+	path = dgis-analysis-dashboard
+	url = https://github.com/OmarEhab76/DGIS-Analysis-Dashboard.git
+[submodule "dgis-iot"]
+	path = dgis-iot
+	url = https://github.com/mohammed-mahmoud101/dgis-iot.git
+[submodule "dgis-mobile"]
+	path = dgis-mobile
+	url = https://github.com/Al-HusainYaser/dgis-mobile.git
