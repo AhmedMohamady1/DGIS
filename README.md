@@ -18,17 +18,17 @@
 DGIS is a multi-component system that autonomously explores diverse biome terrains to detect, classify, and catalog animal species. The platform spans from a Unity-based drone simulation all the way to a physical quadruped robot with real-time object detection, connected through MQTT, and analyzed via a web dashboard.
 
 ```
-┌────────────────────────────────────────────────────────────────────────┐
-│                         DGIS — Full System                            │
-│                                                                       │
+┌──────────────────────────────────────────────────────────────────────┐
+│                         DGIS — Full System                           │
+│                                                                      │
 │  ┌──────────────┐   ONNX model    ┌──────────────┐                   │
 │  │  ML Models   │ ──────────────► │  Simulation  │                   │
 │  │  (YOLOv26s)  │                 │  (Unity 6)   │                   │
 │  │              │  TFLite model   │              │                   │
-│  │  train_real  │ ──────┐        │  Drones +    │                   │
-│  │  train_sim   │       │        │  LiDAR +     │                   │
-│  └──────────────┘       │        │  A* + SQLite │                   │
-│                         │        └──────┬───────┘                   │
+│  │  train_real  │ ──────┐        │  Drones +    │                    │
+│  │  train_sim   │       │        │  LiDAR +     │                    │
+│  └──────────────┘       │        │  A* + SQLite │                    │
+│                         │        └──────┬───────┘                    │
 │                         │               │                            │
 │                         ▼               │  .db files                 │
 │                  ┌──────────────┐       │                            │
@@ -47,7 +47,7 @@ DGIS is a multi-component system that autonomously explores diverse biome terrai
 │                  │  12 servos + │                                    │
 │                  │  Bluepad32)  │                                    │
 │                  └──────────────┘                                    │
-└────────────────────────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
