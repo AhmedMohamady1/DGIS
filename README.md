@@ -25,10 +25,10 @@ DGIS is a multi-component system that autonomously explores diverse biome terrai
 │  │  ML Models   │ ──────────────► │  Simulation  │                   │
 │  │  (YOLOv26s)  │                 │  (Unity 6)   │                   │
 │  │              │  TFLite model   │              │                   │
-│  │  train_real  │ ──────┐        │  Drones +    │                    │
-│  │  train_sim   │       │        │  LiDAR +     │                    │
-│  └──────────────┘       │        │  A* + SQLite │                    │
-│                         │        └──────┬───────┘                    │
+│  │  train_real  │ ──────┐         │  Drones +    │                   │
+│  │  train_sim   │       │         │  LiDAR +     │                   │
+│  └──────────────┘       │         │  A* + SQLite │                   │
+│                         │         └──────┬───────┘                   │
 │                         │               │                            │
 │                         ▼               │  .db files                 │
 │                  ┌──────────────┐       │                            │
