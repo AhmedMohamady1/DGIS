@@ -381,10 +381,10 @@ Graduation Project · 2025/2026
 
 For detailed setup, architecture, and API references, see each component's README:
 
-- [dgis-simulation/README.md](https://github.com/AhmedMohamady1/dgis-simulation/tree/05ecf8f14dad702ee0ef71b620f8bc1ec9edd5ab) — Simulation architecture, biome details, core scripts reference, database schema
+- [dgis-simulation/README.md](https://github.com/AhmedMohamady1/dgis-simulation/tree/05ecf8f14dad702ee0ef71b620f8bc1ec9edd5ab/README.md) — Simulation architecture, biome details, core scripts reference, database schema
 - [dgis-ml-models/README.md](https://github.com/AhmedMohamady1/dgis-ml-models/blob/2d85e91700e21781db6269a7a67d0bd6f6d4e602/README.md) — Training pipeline, datasets, export formats, evaluation results
-- [dgis-mobile/README.md](https://github.com/Al-HusainYaser/dgis-mobile/tree/e060d0d32a8e5c1c0dc3d442a6600f342261ebff) — Android app features, model requirements, USB serial protocol
-- [dgis-iot/README.md](https://github.com/mohammed-mahmoud101/dgis-iot/tree/883c5186122adcb371782bfa7da3cd8bb88b1c30) — MQTT topics, joint map, gait commands, CAD assemblies, control station tabs
+- [dgis-mobile/README.md](https://github.com/Al-HusainYaser/dgis-mobile/tree/e060d0d32a8e5c1c0dc3d442a6600f342261ebff/README.md) — Android app features, model requirements, USB serial protocol
+- [dgis-iot/README.md](https://github.com/mohammed-mahmoud101/dgis-iot/tree/883c5186122adcb371782bfa7da3cd8bb88b1c30/README.md) — MQTT topics, joint map, gait commands, CAD assemblies, control station tabs
 - [dgis-analysis-dashboard/README.md](https://github.com/OmarEhab76/DGIS-Analysis-Dashboard/blob/9da781a3a1c8b6bf76c5dbefa37bb77481fad5bd/README.md) — Dashboard setup, biome database mapping, API endpoints
 
 ---
